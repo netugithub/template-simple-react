@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.foto1{
+  /* width: 100%; */
+  height: 500px;
+}
+
+.fondoCards{
+  background-color: rgb(185, 196, 42);
+  padding: 90px;
+}
+
+.card1, .card2, .card3{
+  margin-left: 70px;
+  
+}
