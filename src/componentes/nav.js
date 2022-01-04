@@ -1,5 +1,6 @@
 import React from 'react';
 import foto from "../img/header-simpsons.gif";
+import { Link } from 'react-router-dom';
 
 
 class Nav extends React.Component {
@@ -17,14 +18,15 @@ class Nav extends React.Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        
+                        <li class="nav-item botonesNav">
+                        <Link to="/" >Inicio</Link>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <li class="nav-item botonesNav">
+                        <Link to="/blog" >Blog</Link>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                        <li class="nav-item botonesNav">
+                        <Link to="/formulario" >Contacto</Link>
                         </li>
                     </ul>
                     <form class="d-flex">

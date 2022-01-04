@@ -8,9 +8,10 @@ class Footer extends React.Component {
     }
     render() { 
         return ( 
-            <p className=" text-center"> &copy;	Hecho por Netanel Toussie</p>
+            <p className="text-center footer"> &copy;	Hecho por Netanel Toussie</p>
          );
     }
 }
  
 export default Footer;
+

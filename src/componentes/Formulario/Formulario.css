@@ -1,0 +1,26 @@
+.fondoContacto{
+    background-color: rgb(185, 196, 42);
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.contenedorForm{
+    width: 50%;
+    
+}
+
+.formulario{
+    padding: 20px;
+    height: 300px;
+}
+
+.mensaje{
+    height: 90px;
+}
+
+.btn-Enviar{
+    color: red;
+    border: 1px solid red;
+}

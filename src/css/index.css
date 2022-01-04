@@ -26,3 +26,12 @@ code {
   margin-left: 70px;
   
 }
+
+.botonesNav{
+  margin: 10px;
+  text-decoration:none;
+}
+
+.footer{
+  background-color: white;
+}

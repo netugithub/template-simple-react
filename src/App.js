@@ -1,18 +1,29 @@
-import logo from '../src/img/logo-circular-texto.png';
-
+import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
+import Blog from './componentes/Blog/Blog';
+import Formulario from './componentes/Formulario/Formulario';
+import HomePage from './componentes/HomePage/HomePage';
 import Nav from './componentes/nav';
-import Carrusel from './componentes/carrusel';
-import Cards from './componentes/cards';
 import Footer from './componentes/Footer';
+
 
 function App() {
   return (
+    <Router>
     <div >
-      <Nav />
-      <Carrusel />
-      <Cards />
+      <nav>
+        <Nav />
+        
+      </nav>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/formulario" element={<Formulario />} />
+
+      </Routes>
       <Footer />
     </div>
+    </Router >
+    
   );
 }
 
