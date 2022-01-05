@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Link, Route } from 'react-router-dom';
 import Blog from './componentes/Blog/Blog';
 import Formulario from './componentes/Formulario/Formulario';
 import HomePage from './componentes/HomePage/HomePage';

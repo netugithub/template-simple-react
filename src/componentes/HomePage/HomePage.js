@@ -10,7 +10,6 @@ import Cards from "../cards"
 const HomePage = () => {
     return ( 
         <div>
-            
             <Carrusel />
             <Cards />
                
